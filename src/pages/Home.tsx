@@ -4,7 +4,7 @@ import Project from '../components/Project/Project';
 import Countdown from '../components/Countdown/Countdown';
 import EventInfo from '../components/EventInfo/EventInfo';
 import Timeline from '../components/Timeline/Timeline';
-import UniversityJourney from '../components/UniversityJourney/UniversityJourney';
+
 import Footer from '../components/Footer';
 import EnvelopeOpening from '../components/Envelope/EnvelopeOpening';
 import GraduationMemories from '../components/GraduationMemories/GraduationMemories';
