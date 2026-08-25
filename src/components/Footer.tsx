@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
 
           <p className='font-cairo text-sm text-[#b9a4b5]'>
-            © 2026 Solaf Alfares
+            © 2026 Batoul abdulHadi
           </p>
 
           <p className='mt-2 font-cairo text-sm text-[#b9a4b5]'>
