@@ -49,7 +49,7 @@ const mobileImages = [
   '/photo_2026-08-25_23-17-59.jpg',
   '/photo_2026-08-25_23-18-03.jpg',
 
-
+]
 const containerVariants: Variants = {
   hidden: {},
   show: {
