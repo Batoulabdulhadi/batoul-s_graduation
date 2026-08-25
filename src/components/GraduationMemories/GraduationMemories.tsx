@@ -290,7 +290,7 @@ const GraduationMemories = () => {
           >
             <div className='relative overflow-hidden rounded-3xl'>
               <img
-                src='/public/batoul/batoul.jpg'
+                src='/batoul.jpg'
                 alt='ذكريات يوم التخرج'
                 className='
                   w-full
