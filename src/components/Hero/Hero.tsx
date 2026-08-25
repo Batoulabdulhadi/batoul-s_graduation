@@ -5,23 +5,51 @@ import type { Variants } from 'framer-motion';
 import { useScreen } from '../../context/ScreenSizeContext';
 
 const desktopImages = [
-  '/u14.webp',
-  '/u16.webp',
-  '/u9.webp',
-  '/u10.webp',
-  '/u12.webp',
-  '/u17.webp',
-  '/u18.webp',
+  
+  '/public/batoul/photo_2026-08-25_23-18-08.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-27.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-31.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-36.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-40.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-46.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-51.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-55.jpg',
+  '/public/batoul/photo_2026-08-25_23-19-03.jpg',
+  '/public/batoul/photo_2026-07-29_09-44-42.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-22.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-32.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-38.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-45.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-49.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-55.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-59.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-03.jpg',
+
+
 ];
 
-const mobileImages = [
-  '/u14.webp',
-  '/u15.webp',
-  '/u9.webp',
-  '/u11.webp',
-  '/u12.webp',
-  '/u17.webp',
-  '/u18.webp',
+const mobileImages =  [
+  
+  '/public/batoul/photo_2026-08-25_23-18-08.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-27.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-31.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-36.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-40.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-46.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-51.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-55.jpg',
+  '/public/batoul/photo_2026-08-25_23-19-03.jpg',
+  '/public/batoul/photo_2026-07-29_09-44-42.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-22.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-32.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-38.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-45.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-49.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-55.jpg',
+  '/public/batoul/photo_2026-08-25_23-17-59.jpg',
+  '/public/batoul/photo_2026-08-25_23-18-03.jpg',
+
+
 ];
 
 const containerVariants: Variants = {
@@ -186,7 +214,7 @@ const Hero = () => {
           variants={itemVariants}
           className='font-reef text-5xl text-white md:text-7xl lg:text-8xl'
         >
-          المهندسة سلاف عبدالحليم الفارس
+         المهندسة بتول محمد عبد الهادي
         </motion.h1>
 
         {/* MOTHER */}
@@ -194,7 +222,7 @@ const Hero = () => {
           variants={itemVariants}
           className='mt-4 font-cairo text-lg text-[#fffc]'
         >
-          والدتي نجوى نديم شربك
+         والدتي ميسون محمد دري الطرشة
         </motion.p>
 
         {/* DECORATION */}

@@ -88,7 +88,7 @@ const Project = () => {
             />
           )}
           <img
-            src='/project.jpg'
+            src='/public/imagehero.png'
             className='w-full h-full object-cover rounded-2xl shadow-lg'
           />
 
