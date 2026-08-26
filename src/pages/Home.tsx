@@ -10,7 +10,7 @@ import EnvelopeOpening from '../components/Envelope/EnvelopeOpening';
 import GraduationMemories from '../components/GraduationMemories/GraduationMemories';
 import { FiVolume2 } from 'react-icons/fi';
 
-const audio = '/سلطان_المرشد_النهايات_السعيدة_حصرياً_2023_Sultan_Al_Murshed_Alnehaiat.mp3'; // حطي ملفك هون
+const audio = '/graduationSound.MP3'; // حطي ملفك هون
 
 const Home = () => {
   const [isPlaying, setIsPlaying] = useState(false);

@@ -3,26 +3,24 @@ import { useEffect, useMemo, useState } from 'react';
 import { FaGraduationCap } from 'react-icons/fa6';
 import type { Variants } from 'framer-motion';
 import { useScreen } from '../../context/ScreenSizeContext';
+import { FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 const desktopImages = [
   
-  '/photo_2026-08-25_23-18-08.jpg',
+ 
   '/photo_2026-08-25_23-18-27.jpg',
   '/photo_2026-08-25_23-18-31.jpg',
   '/photo_2026-08-25_23-18-36.jpg',
-  '/photo_2026-08-25_23-18-40.jpg',
   '/photo_2026-08-25_23-18-46.jpg',
   '/photo_2026-08-25_23-18-51.jpg',
   '/photo_2026-08-25_23-18-55.jpg',
   '/photo_2026-08-25_23-19-03.jpg',
   '/photo_2026-07-29_09-44-42.jpg',
-  '/photo_2026-08-25_23-17-22.jpg',
   '/photo_2026-08-25_23-17-32.jpg',
   '/photo_2026-08-25_23-17-38.jpg',
   '/photo_2026-08-25_23-17-45.jpg',
   '/photo_2026-08-25_23-17-49.jpg',
   '/photo_2026-08-25_23-17-55.jpg',
-  '/photo_2026-08-25_23-17-59.jpg',
   '/photo_2026-08-25_23-18-03.jpg',
 
 
@@ -30,26 +28,25 @@ const desktopImages = [
 
 const mobileImages = [
   
-  '/photo_2026-08-25_23-18-08.jpg',
+ 
   '/photo_2026-08-25_23-18-27.jpg',
   '/photo_2026-08-25_23-18-31.jpg',
   '/photo_2026-08-25_23-18-36.jpg',
-  '/photo_2026-08-25_23-18-40.jpg',
   '/photo_2026-08-25_23-18-46.jpg',
   '/photo_2026-08-25_23-18-51.jpg',
   '/photo_2026-08-25_23-18-55.jpg',
   '/photo_2026-08-25_23-19-03.jpg',
   '/photo_2026-07-29_09-44-42.jpg',
-  '/photo_2026-08-25_23-17-22.jpg',
   '/photo_2026-08-25_23-17-32.jpg',
   '/photo_2026-08-25_23-17-38.jpg',
   '/photo_2026-08-25_23-17-45.jpg',
   '/photo_2026-08-25_23-17-49.jpg',
   '/photo_2026-08-25_23-17-55.jpg',
-  '/photo_2026-08-25_23-17-59.jpg',
   '/photo_2026-08-25_23-18-03.jpg',
 
-]
+
+];
+
 const containerVariants: Variants = {
   hidden: {},
   show: {
@@ -249,13 +246,24 @@ const Hero = () => {
         </motion.p>
 
         {/* EVENT DETAILS */}
-        <motion.div
-          variants={itemVariants}
-          className='mt-6 space-y-2 font-cairo text-[#fffc]'
-        >
-          <p>يوم الأحد 30 آب 2026</p>
-          <p>كلية الهندسة المعلوماتية - جامعة حمص</p>
-        </motion.div>
+        {/* EVENT DETAILS */}
+{/* EVENT DETAILS */}
+<motion.div
+  variants={itemVariants}
+  className='mt-6 flex flex-wrap items-center justify-center gap-4 text-center font-cairo text-[#fffc]'
+>
+  <span className='flex items-center gap-2'>
+    <FaCalendarAlt className='text-(--golden)' />
+    يوم الأحد 30 آب 2026
+  </span>
+
+  <span className='h-5 w-px bg-white/25' />
+
+  <span className='flex items-center gap-2'>
+    <FaMapMarkerAlt className='text-(--golden)' />
+    كلية الهندسة المعلوماتية - جامعة حمص
+  </span>
+</motion.div>
 
         {/* ADD TO CALENDAR */}
         <motion.a
